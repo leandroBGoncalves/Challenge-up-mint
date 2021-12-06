@@ -1,0 +1,64 @@
+.ContainerAll {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+    h1 {
+        font-size: 4rem;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+}
+
+.Content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+
+    img {
+        max-width: 70%;
+    }
+}
+
+.boxLeft {
+    padding: 0 20px;
+}
+
+.boxRowInformation {
+
+    & + div {
+        margin-top: 25px;
+    }
+
+    div {
+        background: rgba(255, 0, 0, 0.78);
+        padding: 5px;
+        width: fit-content;
+        border-radius: 15px;
+        margin-bottom: 5px;
+
+        font-family: Iceland, sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        text-align: justify;
+        letter-spacing: 0.065em;
+        color: #000000;
+    }
+
+    span {
+        font-family: Iceland, sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: justify;
+        letter-spacing: 0.065em;
+        color: #000000;
+    }
+}

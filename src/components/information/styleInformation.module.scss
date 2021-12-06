@@ -1,0 +1,93 @@
+.ContainerAll {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ShowTextInformatiom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        max-width: 16rem;
+    }
+
+    p {
+        font-family: Iceland, sans-serif;
+        font-weight: 400;
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        text-align: center;
+        letter-spacing: 0.065em;
+        color: #000000;
+    }
+}
+
+.BoxCounter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        width: 12rem;
+        height: 2rem;
+        background: #E64241;
+        border: 2px solid #000000;
+        border-radius: 4px 0 0 4px;
+    
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+          0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        font-family: Iceland, sans-serif;
+        font-weight: 400;
+        font-size: 1.7rem;
+        line-height: 1.7rem;
+        text-align: center;          
+        color: #FFFFFF;
+    }
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+
+    span {
+        font-size: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    p {
+        font-size: 4rem;
+        margin: 0 15px;
+    }
+}
+
+.BottonInformation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    p {
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    span {
+        font-size: 3rem;
+        margin-left: 50px;
+    }
+}
